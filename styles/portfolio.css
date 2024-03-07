@@ -188,7 +188,9 @@ footer{
     margin: 0 auto;
     padding: 100px;
 }
-
+.social-links a{
+    margin-right: 25px;
+}
 .contact-form input[type="text"], .contact-form input[type="email"], textarea {
     background-color: white;
     border: none;
