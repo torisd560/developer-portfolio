@@ -8,6 +8,9 @@ p{
     font-size: 16px;
     line-height: 30px;
 }
+main section , footer{
+    margin-top: 130px;
+}
 
 
 /* nav related style */
@@ -82,6 +85,7 @@ font-size: large;
 }
 .profile-pic{
     height: 600px;
+    display: block;
 }
 .banner-gretting{
     font-size: 30px;
@@ -114,12 +118,11 @@ main{
 .about-section{
     background-color: #FFF8F3;
     text-align: center;
-    margin: 100px 0;
     padding: 110px;
     border-radius: 10px;
 
 }
-.about-info{
+.about-me-info{
     display: flex;
     justify-content: space-between;
 }
@@ -130,11 +133,10 @@ main{
  line-height: 30px;
 }
 /* what I do section styles */
-.my-skills{
-   margin: 50px 0;
-}
+
 .what-i-do-title{
     text-align: center;
+
 }
 .what-i-do-description{
     text-align: center;
@@ -147,7 +149,7 @@ main{
     justify-content: space-between;
     column-gap: 25px;
 }
-.what-i-do-card{
+.skills-card{
     background-color: white;
     border-radius: 10px;
     padding: 40px;
@@ -155,20 +157,20 @@ main{
     margin:20px 0px;
 }
 /* My resume summery section styles */
-.resume-summery-title{
+.resume-title{
     text-align: center;
-    margin-top: 100px;
 }
-.resume-summery{
+.resume-container{
     display: flex;
     column-gap: 20px;
-    margin-top: 100px;;
+    margin-top: 100px;
 }
-.resume-working-period{
+.resume-item-institute{
     color: rgb(135, 135, 135);
 }
-.experience-details, .education-details{
-    border-bottom: 1px solid lightgrey;
+hr{
+   height: 1px;
+   
 }
 .resume-download-btn{
     margin-top: 20px;
@@ -177,9 +179,8 @@ main{
 /* footer styles start */
 footer{
     background-color: #FFF8F3;
-    margin-top: 100px;
 }
-.footer-content{
+.footer-container{
     display: flex;
     justify-content: space-between;
     column-gap: 50px;
@@ -188,16 +189,12 @@ footer{
     padding: 100px;
 }
 
-#user-name, #user-email , #message {
+.contact-form input[type="text"], .contact-form input[type="email"], textarea {
     background-color: white;
     border: none;
     display: block;
     width: 400px;
-    height: 50px;
     margin: 20px 0px;
-    padding: 8px 20px;
+    padding: 20px 30px;
     border-radius: 5px;
-}
-.contact-form textarea{
-    height :auto ;
 }
